@@ -103,7 +103,7 @@ aside {
   grid-column: 3/4;
   padding: 1rem;
   border-radius: 5px;
-  display: block; /* Ensures aside is a block element */
+  display: block;
 }
 
 aside h2 {
@@ -112,12 +112,12 @@ aside h2 {
 }
 
 aside ul {
-  padding-left: 0; /* Removes the default padding */
+  padding-left: 0;
 }
 
 aside ul li {
   margin-bottom: 0.5rem;
-  list-style-type: none; /* Ensures no bullet points */
+  list-style-type: none;
 }
 
 aside ul li a {
